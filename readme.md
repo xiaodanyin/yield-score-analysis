@@ -11,7 +11,6 @@ conda env create -f envs.yaml
 conda activate yield_az_score_env
 cd aizynthfinder
 pip install -e .
-
 ```
 ## Run
 ```
