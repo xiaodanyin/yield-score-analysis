@@ -1,0 +1,104 @@
+[
+    {
+        "type": "mol",
+        "smiles": "CN1CCC(c2c[nH]c3ccc(NC(=O)c4ccc(F)cc4F)nc23)CC1",
+        "children": [
+            {
+                "type": "reaction",
+                "is_reaction": true,
+                "children": [
+                    {
+                        "type": "mol",
+                        "smiles": "CN1CCC(c2c[nH]c3ccc(N)nc23)CC1",
+                        "children": [
+                            {
+                                "type": "reaction",
+                                "is_reaction": true,
+                                "children": [
+                                    {
+                                        "type": "mol",
+                                        "smiles": "CN1CC=C(c2c[nH]c3ccc(N)nc23)CC1",
+                                        "children": [
+                                            {
+                                                "type": "reaction",
+                                                "hide": false,
+                                                "is_reaction": true,
+                                                "children": [
+                                                    {
+                                                        "type": "mol",
+                                                        "hide": false,
+                                                        "smiles": "Nc1ccc2[nH]ccc2n1"
+                                                    },
+                                                    {
+                                                        "type": "mol",
+                                                        "smiles": "CN1CCC(=O)CC1"
+                                                    }
+
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "mol",
+                        "smiles": "O=C(Cl)c1ccc(F)cc1F"
+                    }
+
+                ]
+            }
+        ]
+    },
+    {
+        "type": "mol",
+        "smiles": "CN1CCC(c2c[nH]c3ccc(NC(=O)c4ccc(F)cc4F)nc23)CC1",
+        "children": [
+            {
+                "type": "reaction",
+                "is_reaction": true,
+                "children": [
+                    {
+                        "type": "mol",
+                        "smiles": "O=C(Cl)c1ccc(F)cc1F"
+                    },
+                    {
+                        "type": "mol",
+                        "smiles": "CN1CCC(c2c[nH]c3ccc(N)nc23)CC1",
+                        "children": [
+                            {
+                                "type": "reaction",
+                                "is_reaction": true,
+                                "children": [
+                                    {
+                                        "type": "mol",
+                                        "smiles": "CN1CC=C(c2c[nH]c3ccc(N)nc23)CC1",
+                                        "children": [
+                                            {
+                                                "type": "reaction",
+                                                "hide": false,
+                                                "is_reaction": true,
+                                                "children": [
+                                                    {
+                                                        "type": "mol",
+                                                        "smiles": "CN1CCC(=O)CC1"
+                                                    },
+                                                    {
+                                                        "type": "mol",
+                                                        "hide": false,
+                                                        "smiles": "Nc1ccc2[nH]ccc2n1"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
