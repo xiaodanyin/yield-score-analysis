@@ -25,4 +25,4 @@ python aizynthcli.py --smiles ../../contrib/data/test_data/smiles.txt \
 python aizynthfinder/contrib/scripts/analysis_routs.py
 ```
 ## Download
-The datasets and models can be downloaded from the following link: https://drive.google.com/file/d/1ezC9nmTDX9LGvE85J1oaqbV1_kJ2e2OH/view?usp=sharing.
+The models can be downloaded from the following link: https://drive.google.com/file/d/1ezC9nmTDX9LGvE85J1oaqbV1_kJ2e2OH/view?usp=sharing.
